@@ -1,0 +1,55 @@
+
+.navbar .menu {
+    left: 100% !important;
+}
+
+.navbar .menu.active {
+    left: 0 !important;
+}
+.style-switcher {
+    right: 100% !important;
+    transform: translateX(0%) !important;
+}
+.style-switcher .colors-item{
+    right: 120% !important;
+    transform: translateX(0%) !important;
+}
+
+.style-switcher .language{
+    right: 120% !important;
+    transform: translateX(0%) !important;
+}
+.style-switcher.open-colors {
+    transform: translateX(110%) !important;
+}
+.style-switcher .colors-item.open-colors {
+    transform: translateX(110%) !important;
+}
+.style-switcher.open-language{
+    transform: translateX(110%) !important;
+}
+.style-switcher .language.open-language {
+    transform: translateX(110%) !important;
+}
+
+.style-switcher .s-icon {
+    right: -34% !important;
+    margin-right: 0% !important;
+}
+.btn-up {
+    right: 95%;
+}
+@media(max-width: 991px) {   
+.btn-up {
+    right: 90%;
+}
+}
+@media(max-width: 767px) {
+.btn-up {
+    right: 88%;
+}
+}
+@media(max-width: 480px) {
+    .btn-up {
+        right: 80%;
+    }}
